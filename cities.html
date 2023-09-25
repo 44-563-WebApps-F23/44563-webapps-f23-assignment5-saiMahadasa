@@ -16,7 +16,7 @@
 
 <br/>
 <div class="container">
-
+<div class="row">
 <div style="background-color: aliceblue; color: blue; margin-bottom: 15px;" class="row">
     <div class="col-sm-2">M</div>
     <div class="col-sm-2">A</div>
@@ -33,9 +33,21 @@
     <div class="col-md">Dallas</div>
     <div class="col-md">Abudhabi</div>
 </div>
+<p>From the above output observation it clearly shows that cities row breaks first at 762px. It occurs because cities names consumes more width by having multiple letters</p>
+
+<div class="row">
+  <p style="text-align: center;">City Images</p>
+  <div class="city-img">
+    <img class="img-fluid" width="500" height="400" src="./images/dalls.jpg" alt="dallas" style="margin-bottom: 20px; border: 1px ridge black;"/>
+  </div>
+  <br/> <br/>
+  <div class="city-img-thumbnails">
+    <img class="img-thumbnail" src="./images/california.jpg" width="500" height="400" alt="california" style="padding: 10px;"/>
+    <img class="img-thumbnail" src="./images/newyork.jpg" width="500" height="400" alt="california" style="padding: 10px;"/>
+  </div>
+</div>
 </div>
 </body>
 </br>
 </br>
-<p>From the above output observation it clearly shows that cities row breaks first at 762px. It occurs because cities names consumes more width by having multiple letters</p>
 </html>
