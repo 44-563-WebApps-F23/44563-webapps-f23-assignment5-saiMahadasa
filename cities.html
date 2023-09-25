@@ -19,13 +19,43 @@ table{
   padding-bottom: 20px;
   padding-top: 20px;
 }
+.menu-item{
+  padding: 10px;
+  cursor: pointer;
+}
+#img-thumbnail{
+  max-width: 100%;
+  height: auto;
+}
 
 </style>
 </head>
 <body>
-    <h1>Visit cities with Sai Subrahmanyam Mahadasa</h1>
-<br/>
-<div class="container">
+  
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navigation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item" id="menu-item">
+              <a class="nav-link" href="./basic.html">Basic HTML</a>
+            </li>
+            <li class="nav-item" id="menu-item">
+              <a class="nav-link" href="./advanced.html">Advanced HTML</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+  
+  <h1>Visit cities with Sai Subrahmanyam Mahadasa</h1>
+  <br/>
 <div class="row">
 <div style="background-color: aliceblue; color: blue; margin-bottom: 15px;" class="row">
     <div class="col-sm-2">M</div>
@@ -54,9 +84,9 @@ table{
   </div>
   <br/> <br/>
   <div class="city-img-thumbnails">
-    <img class="img-thumbnail" width="300" height="200" src="./images/dalls.jpg" alt="dallas" />
-    <img class="img-thumbnail"  width="300" height="200" src="./images/california.jpg"  alt="california"/>
-    <img class="img-thumbnail"  width="300" height="200" src="./images/newyork.jpg" alt="california" />
+    <img class="img-thumbnail" id = "img-thumbnail"  src="./images/dalls.jpg" alt="dallas" />
+    <img class="img-thumbnail" id = "img-thumbnail"  src="./images/california.jpg"  alt="california"/>
+    <img class="img-thumbnail" id = "img-thumbnail" src="./images/newyork.jpg" alt="california" />
   </div>
 </div>
 <br/>
