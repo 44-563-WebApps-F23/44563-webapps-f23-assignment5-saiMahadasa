@@ -15,6 +15,11 @@ table{
     border: 1px ridge gray;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+.city-img , #dropdow{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
 </style>
 </head>
 <body>
@@ -40,18 +45,18 @@ table{
 </div>
 <p>From the above output observation it clearly shows that cities row breaks first at 762px. It occurs because cities names consumes more width by having multiple letters</p>
 
-<div class="row">
+<div class="row" >
   <p style="text-align: center;">City Images</p>
-  <div class="city-img">
-    <img class="img-fluid" src="./images/dalls.jpg" alt="dallas"  width="400" height="300"/>
-    <img class="img-fluid" src="./images/california.jpg"width="400" height="300" alt="california"/>
-    <img class="img-fluid" src="./images/newyork.jpg" width="400" height="300" alt="california" />
+  <div class="city-img" >
+    <img class="img-fluid" src="./images/dalls.jpg" alt="dallas"  width="300" height="200"/>
+    <img class="img-fluid" src="./images/california.jpg"width="300" height="200" alt="california"/>
+    <img class="img-fluid" src="./images/newyork.jpg" width="300" height="200" alt="california" />
   </div>
   <br/> <br/>
   <div class="city-img-thumbnails">
-    <img class="img-thumbnail" width="400" height="300" src="./images/dalls.jpg" alt="dallas" />
-    <img class="img-thumbnail"  width="400" height="300" src="./images/california.jpg"  alt="california"/>
-    <img class="img-thumbnail"  width="400" height="300" src="./images/newyork.jpg" alt="california" />
+    <img class="img-thumbnail" width="300" height="200" src="./images/dalls.jpg" alt="dallas" />
+    <img class="img-thumbnail"  width="300" height="200" src="./images/california.jpg"  alt="california"/>
+    <img class="img-thumbnail"  width="300" height="200" src="./images/newyork.jpg" alt="california" />
   </div>
 </div>
 <br/>
@@ -138,8 +143,22 @@ table row -->
 </div>
 </div>
 
+<div class="row" id="dropdow">
+  
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown 
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="./basic.html">Basic HTML</a></li>
+      <li><a class="dropdown-item" href="./advanced.html">Advanced HTML</a></li>
+    </ul>
+  </div>
+
+
+</div>
+
 </div>
 </body>
-</br>
-</br>
+
 </html>
