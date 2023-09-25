@@ -10,10 +10,15 @@
   integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
   integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<style>
+table{
+    border: 1px ridge gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+</style>
 </head>
 <body>
     <h1>Visit cities with Sai Subrahmanyam Mahadasa</h1>
-
 <br/>
 <div class="container">
 <div class="row">
@@ -38,14 +43,80 @@
 <div class="row">
   <p style="text-align: center;">City Images</p>
   <div class="city-img">
-    <img class="img-fluid" width="500" height="400" src="./images/dalls.jpg" alt="dallas" style="margin-bottom: 20px; border: 1px ridge black;"/>
+    <img class="img-fluid" src="./images/dalls.jpg" alt="dallas"  width="400" height="300"/>
+    <img class="img-fluid" src="./images/california.jpg"width="400" height="300" alt="california"/>
+    <img class="img-fluid" src="./images/newyork.jpg" width="400" height="300" alt="california" />
   </div>
   <br/> <br/>
   <div class="city-img-thumbnails">
-    <img class="img-thumbnail" src="./images/california.jpg" width="500" height="400" alt="california" style="padding: 10px;"/>
-    <img class="img-thumbnail" src="./images/newyork.jpg" width="500" height="400" alt="california" style="padding: 10px;"/>
+    <img class="img-thumbnail" width="400" height="300" src="./images/dalls.jpg" alt="dallas" />
+    <img class="img-thumbnail"  width="400" height="300" src="./images/california.jpg"  alt="california"/>
+    <img class="img-thumbnail"  width="400" height="300" src="./images/newyork.jpg" alt="california" />
   </div>
 </div>
+<br/>
+<!-- 
+table row -->
+<h1 style="text-align: center;"> Table</h1>
+<div class="row">
+<table class="table table-hover">
+  <caption>List of Letters, Cities, Rivers, and Trees in a table</caption>
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Letter</th>
+      <th scope="col">City</th>
+      <th scope="col">River</th>
+      <th scope="col">Tree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>M</td>
+      <td>Maryville</td>
+      <td>Mojave River</td>
+      <td>Mahogany</td>
+    </tr>
+    <tr class="table-info">
+      <th scope="row">2</th>
+      <td>A</td>
+      <td>Austin</td>
+      <td>Abita River</td>
+      <td>Acacia</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>H</td>
+      <td>Hamilton</td>
+      <td>Huff Run</td>
+      <td>Hardwoods </td>
+    </tr>
+    <tr class="table-info">
+      <th scope="row">4</th>
+      <td>A</td>
+      <td >Augsburg</td>
+      <td>Alabama River</td>
+      <td>Alexandra Palm</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>D</td>
+      <td>Dallas</td>
+      <td>Doe River</td>
+      <td>Dogwood</td>
+    </tr>
+    <tr class="table-info">
+      <th scope="row">6</th>
+      <td>A</td>
+      <td >Abudhabi</td>
+      <td>Ahnapee River</td>
+      <td>African Rosewood</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 </div>
 </body>
 </br>
