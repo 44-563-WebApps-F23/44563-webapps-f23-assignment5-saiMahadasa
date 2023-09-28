@@ -29,9 +29,9 @@ table{
   font-weight: 600 !important;
  
 }
-#img-thumbnail{
-  max-width: 100%;
-  height: auto;
+
+.city-img-thumbnails{
+  display: flex;
 }
 
 </style>
@@ -48,7 +48,7 @@ table{
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item" id="menu-item">
-              <a class="nav-link" href="#">HOME</a>
+              <a class="nav-link" href="#">Cities</a>
             </li>
             <li class="nav-item" id="menu-item">
               <a class="nav-link" href="./basic.html">BASIC HTML</a>
@@ -93,9 +93,18 @@ table{
   </div>
   <br/> <br/>
   <div class="city-img-thumbnails">
-    <img class="img-thumbnail" id = "img-thumbnail"  src="./images/dalls.jpg" alt="dallas" width="300" height="200" />
-    <img class="img-thumbnail" id = "img-thumbnail"  src="./images/california.jpg"  alt="california" width="300" height="200"/>
-    <img class="img-thumbnail" id = "img-thumbnail" src="./images/newyork.jpg" alt="california"  width="300" height="200"/>
+    <div class="column">
+      <img class="img-thumbnail" id = "img-thumbnail"  src="./images/dalls.jpg" alt="dallas" width="300" height="200" />
+
+    </div>
+    <div class="column">
+     <img class="img-thumbnail" id = "img-thumbnail"  src="./images/california.jpg"  alt="california" width="300" height="200"/>
+
+    </div>
+    <div class="column">
+      <img class="img-thumbnail" id = "img-thumbnail" src="./images/newyork.jpg" alt="california"  width="300" height="200"/>
+
+    </div>
   </div>
 </div>
 <br/>
@@ -103,7 +112,7 @@ table{
 table row -->
 <h1 style="text-align: center;"> Table</h1>
 <div class="row">
-<table class="table table-hover">
+<table class="table table-hover">  
   <caption>List of Letters, Cities, Rivers, and Trees in a table</caption>
   <thead class="table-dark">
     <tr>
